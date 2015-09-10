@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/appDS" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/app"
+		username="root" password="mysql" maxActive="20" maxIdle="10" maxWait="-1" />
+	<Resource name="BeanManager" auth="Container"
+		type="javax.enterprise.inject.spi.BeanManager" factory="org.jboss.weld.resources.ManagerObjectFactory" />
+</Context> 

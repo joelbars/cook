@@ -1,0 +1,17 @@
+**/classes/
+**/build/
+**/bin/
+**/target/
+**/.settings/
+**/.classpath
+**/.project
+**/.git
+**/.class
+.classpath
+.project
+.settings
+*.iml
+**/.idea
+**/*.jsfdia
+**/*.pmd
+**/Thumbs.db
